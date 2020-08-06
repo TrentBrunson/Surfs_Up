@@ -1,7 +1,7 @@
 # Surfs Up
 ---
 
-###Methods
+### Methods
 Use the following packages:  
 SQLAlchemy
 Pandas
