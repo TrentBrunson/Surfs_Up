@@ -7,6 +7,10 @@ SQLAlchemy
 Pandas  
 Numpy  
 Flask  
+Python  
+SQLAlchemy ORM  
+SQLite  
+Matplotlib  
 #### And languages:  
 Python  
 HTML  
