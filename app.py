@@ -30,3 +30,14 @@ session = Session(engine)
 app = Flask(__name__)
 
 # %%
+@ app.route('/')
+def welcome():
+    return(
+        '''
+        Welcome to the Climate Analysis API!
+        Available Routes:
+        /api/v1.0/precipitation
+        /api/v1.0/stations
+        /api/v1.0/tobs
+        /api/v1.0/temp/start/end
+    ''')
